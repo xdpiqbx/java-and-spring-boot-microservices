@@ -18,7 +18,14 @@ mvn archetype:generate "-DgroupId=com.dpiqb" "-DartifactId=micros" "-DarchetypeA
 5. `docker-compose`
 6. configure `application.yml`
 7. add dependencies to `customer` `pom.xml`
- 
+8. write service
+
+Same for other services
+
+---
+
+
+
 ---
 
 For Docker
