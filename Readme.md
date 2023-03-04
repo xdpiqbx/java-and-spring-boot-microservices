@@ -14,3 +14,10 @@ mvn archetype:generate "-DgroupId=com.dpiqb" "-DartifactId=micros" "-DarchetypeA
     <module>customer</module>
   </modules>
 ```
+
+---
+
+For Docker
+```console
+docker compose up -d
+```
