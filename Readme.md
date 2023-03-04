@@ -14,7 +14,11 @@ mvn archetype:generate "-DgroupId=com.dpiqb" "-DartifactId=micros" "-DarchetypeA
     <module>customer</module>
   </modules>
 ```
-
+4. add basics microservice (entity, controller, service, DTOs)
+5. `docker-compose`
+6. configure `application.yml`
+7. add dependencies to `customer` `pom.xml`
+ 
 ---
 
 For Docker
