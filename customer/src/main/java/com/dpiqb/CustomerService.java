@@ -3,7 +3,7 @@ package com.dpiqb;
 import org.springframework.stereotype.Service;
 
 @Service
-public record CustomerService() {
+public record CustomerService(CustomerRepository repository) {
   public void registerCustomer(CustomerRegistrationRequest request) {
     Customer customer = Customer.builder()
       .firstName(request.firstName())
@@ -12,6 +12,6 @@ public record CustomerService() {
       .build();
     // TODO: validation - email valid
     // TODO: validation - email not taken
-    // TODO: store customer in db
+    repository.save(customer);
   }
 }
