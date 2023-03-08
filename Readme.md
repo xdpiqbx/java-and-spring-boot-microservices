@@ -1,5 +1,5 @@
-[Continue from](https://youtu.be/-gLLeoS1m6s?list=PLwvrYc43l1Mwqpf9i-1B1gXfMeHOm6DeY&t=332)
-
+### !!! The lesson was not completed. It was an advertisement for the course. Here is only the very initial base. 
+ 
 ---
 
 mvn archetype:generate "-DgroupId=com.dpiqb" "-DartifactId=micros" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DarchetypeVersion=1.4" "-DinteractiveMode=false"
