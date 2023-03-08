@@ -1,4 +1,4 @@
-[Continue from](https://youtu.be/1aWhYEynZQw?t=1638)
+[Continue from](https://youtu.be/-gLLeoS1m6s?list=PLwvrYc43l1Mwqpf9i-1B1gXfMeHOm6DeY&t=332)
 
 ---
 
@@ -24,7 +24,14 @@ Same for other services
 
 ---
 
+For load balancer we need spring cloud
 
+---
+
+[zipkin.io](https://zipkin.io/pages/quickstart.html)
+`docker run -d -p 9411:9411 openzipkin/zipkin`
+
+`docker run -d -p 8761:8761 springcloud/eureka`
 
 ---
 
@@ -32,3 +39,4 @@ For Docker
 ```console
 docker compose up -d
 ```
+

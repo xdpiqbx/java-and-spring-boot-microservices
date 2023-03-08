@@ -1,14 +1,11 @@
 package com.dpiqb;
 
-import jakarta.persistence.Id;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.SequenceGenerator;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
+import javax.persistence.*;
 
 @Data
 @Entity
